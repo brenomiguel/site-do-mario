@@ -1,5 +1,8 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
-    background-color: #00008b;
+    background-color: #06f1de;
 }
 
 .img_topo{
@@ -17,8 +20,23 @@ h1{
     color: #f8f8ff ;
 }
 p{
-
+    font-size: 1.4em;
     color: #f8f8ff ;
-  
-  
+    text-align: justify;
+    text-indent: 40px;
 }
+.parag_letras > p{
+
+    font-size: 1em;
+  }
+  
+  .pinta_botao{
+    width: 150px;
+    height: 50px;
+    background-image: linear-gradient(to right, #F08080 , #fff);
+    margin: auto;            
+  }
+  .botao{
+    padding-top: 15px;
+    
+  }
