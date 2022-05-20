@@ -19,6 +19,18 @@ h1{
     text-align: center;
     color: #f8f8ff ;
 }
+.logo{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.menu{
+    background-color: black;
+    padding: 1.5%;
+}
+.item_menu{
+    list-style: 1.5%;
+    text-align: center;
+}
 p{
     font-size: 1.4em;
     color: #f8f8ff ;
