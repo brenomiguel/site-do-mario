@@ -7,6 +7,8 @@ body{
 
 .img_topo{
     width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 figure{
     text-align: center;
@@ -18,14 +20,17 @@ figure{
 h1{
     text-align: center;
     color: #f8f8ff ;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: 1.8em;
 }
 .logo{
     padding-top: 1%;
     padding-bottom: 1%;
 }
-.menu{
-    background-color: black;
-    padding: 1.5%;
+.menu, footer{
+    background-color: rgba(255,0,0);
+    padding:  1.5%;
 }
 .item_menu{
     list-style: 1.5%;
@@ -36,6 +41,9 @@ p{
     color: #f8f8ff ;
     text-align: justify;
     text-indent: 40px;
+    line-height: 1.5;
+    margin-top: 0.2%;
+    margin-bottom: 00.2%;
 }
 .parag_letras > p{
 
@@ -52,3 +60,65 @@ p{
     padding-top: 15px;
     
   }
+  footer p{
+      padding: 1.2em;
+      text-align: center;
+  }
+  .img_corpo {
+    width: 100%;
+    margin-top:  2%; 
+  }
+  .item_menu a:link{
+    color: rgb(217, 255, 0);
+  }
+  .item_menu a:visited{
+      color: rgb(10, 47, 102);
+  }
+  .item_menu a:hover{
+      color: rgb(0, 255, 38);
+  }
+  .item_menu a:active{
+      color: #01ffff;
+  }
+  .container a:link{
+      color:darkblue ;
+  }
+  .container a:visited{
+      color: chocolate;
+  }
+  .container a:hover{
+      color: darkviolet;
+  }
+  .container a:active{
+      color: blanchedalmond;
+  }
+footer a:link{
+    color:rgb(255, 7, 222) ;
+}
+footer a:visited{
+    color: rgb(255, 187, 0);
+}
+footer a:hover{
+    color: rgb(0, 255, 191);
+}
+footer a:active{
+    color: forestgreen;
+}
+.container a{
+    width: 150px;
+    height: 50px;
+    background-image: linear-gradient(to right, #7606b8 , rgb(4, 0, 255));
+    margin: auto; 
+}
+.item_menu a{
+    width: 150px;
+    height: 50px;
+    background-image: linear-gradient(to right, #e9db15 , rgb(255, 166, 0));
+    margin: auto; 
+}
+    footer a{
+    width: 150px;
+    height: 50px;
+    background-image: linear-gradient(to right, #8091f0 , rgb(255, 255, 255));
+    margin: auto; 
+    }
