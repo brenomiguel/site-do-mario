@@ -45,21 +45,45 @@ p{
     margin-top: 0.2%;
     margin-bottom: 00.2%;
 }
-.parag_letras > p{
 
-    font-size: 1em;
+.parag_letras > p{
+    font-size: 1.4em;
+    color: #f8f8ff ;
+    text-align: justify;
+    text-indent: 40px;
+    line-height: 1.5;
+    margin-top: 0.2%;
+    margin-bottom: 00.2%;
+    
   }
   
   .pinta_botao{
-    width: 150px;
-    height: 50px;
-    background-image: linear-gradient(to right, #F08080 , #fff);
-    margin: auto;            
+    width: 100px;
+    height: 40px;
+    background-color: #0606ff;
+    margin: auto; 
+    padding: 0.2%;
+    text-align: center;  
+    padding-top: 3%; 
+        
+  }
+  
+  .pinta_botao:hover{
+    background-color: rgba(255, 217, 0, 0.815);
+  }
+  
+  .pinta_botao a:link, .pinta_botao :visited{
+    text-align: center;
+    text-decoration: none ; 
+    font-weight: bolder;   
+  
   }
   .botao{
     padding-top: 15px;
-    
-  }
+    text-align: center;
+}
+
+
   footer p{
       padding: 1.2em;
       text-align: center;
@@ -116,9 +140,22 @@ footer a:active{
     background-image: linear-gradient(to right, #e9db15 , rgb(255, 166, 0));
     margin: auto; 
 }
-    footer a{
+footer a{
     width: 150px;
     height: 50px;
     background-image: linear-gradient(to right, #8091f0 , rgb(255, 255, 255));
     margin: auto; 
-    }
+}
+.tanto{
+    display: none;
+}
+.right{
+    float: right;
+    margin-left: 2%;
+    
+    
+}
+.left{
+    float: left;
+    margin-right: 2%;
+}
