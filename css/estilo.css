@@ -38,7 +38,7 @@ h1{
 }
 p{
     font-size: 1.4em;
-    color: #f8f8ff ;
+    color: #060608 ;
     text-align: justify;
     text-indent: 40px;
     line-height: 1.5;
@@ -48,7 +48,7 @@ p{
 
 .parag_letras > p{
     font-size: 1.4em;
-    color: #f8f8ff ;
+    color: #0404ee ;
     text-align: justify;
     text-indent: 40px;
     line-height: 1.5;
@@ -58,9 +58,9 @@ p{
   }
   
   .pinta_botao{
-    width: 100px;
+    width: 150px;
     height: 40px;
-    background-color: #0606ff;
+    background-color: #00ff4c;
     margin: auto; 
     padding: 0.2%;
     text-align: center;  
@@ -69,7 +69,7 @@ p{
   }
   
   .pinta_botao:hover{
-    background-color: rgba(255, 217, 0, 0.815);
+    background-color: rgba(128, 128, 128, 0.3);
   }
   
   .pinta_botao a:link, .pinta_botao :visited{
@@ -78,11 +78,6 @@ p{
     font-weight: bolder;   
   
   }
-  .botao{
-    padding-top: 15px;
-    text-align: center;
-}
-
 
   footer p{
       padding: 1.2em;
@@ -131,7 +126,7 @@ footer a:active{
 .container a{
     width: 150px;
     height: 50px;
-    background-image: linear-gradient(to right, #7606b8 , rgb(4, 0, 255));
+    background-image: linear-gradient(to right, #f80606 , rgb(255, 0, 0));
     margin: auto; 
 }
 .item_menu a{
