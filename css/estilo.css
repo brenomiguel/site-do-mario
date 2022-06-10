@@ -35,6 +35,7 @@ h1{
 .item_menu{
     list-style: 1.5%;
     text-align: center;
+    margin: auto;
 }
 p{
     font-size: 1.4em;
@@ -88,16 +89,20 @@ p{
     margin-top:  2%; 
   }
   .item_menu a:link{
-    color: rgb(217, 255, 0);
+    color: rgb(0, 58, 248);
+    
   }
   .item_menu a:visited{
-      color: rgb(10, 47, 102);
+      color: rgb(0, 162, 255);
+      
   }
   .item_menu a:hover{
-      color: rgb(0, 255, 38);
+      color: rgb(0, 0, 0);
+      
   }
   .item_menu a:active{
-      color: #01ffff;
+      color: #ff8800;
+      
   }
   .container a:link{
       color:darkblue ;
