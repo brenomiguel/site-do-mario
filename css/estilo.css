@@ -2,7 +2,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background-color: #06f1de;
+    background-color:black;
 }
 
 .img_topo{
@@ -30,7 +30,7 @@ h1{
 }
 .menu, footer{
     background-color: rgba(255,0,0);
-    padding:  1.5%;
+    padding:  2%;
 }
 .item_menu{
     list-style: 1.5%;
@@ -39,7 +39,7 @@ h1{
 }
 p{
     font-size: 1.4em;
-    color: #060608 ;
+    color:white ;
     text-align: justify;
     text-indent: 40px;
     line-height: 1.5;
@@ -49,7 +49,7 @@ p{
 
 .parag_letras > p{
     font-size: 1.4em;
-    color: #0404ee ;
+    color: white ;
     text-align: justify;
     text-indent: 40px;
     line-height: 1.5;
@@ -88,34 +88,22 @@ p{
     width: 100%;
     margin-top:  2%; 
   }
-  .item_menu a:link{
-    color: rgb(0, 58, 248);
-    
+  .item_menu a:link, a:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(3, 3, 3);
+    padding: 2.5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
   }
-  .item_menu a:visited{
-      color: rgb(0, 162, 255);
-      
+  
+  .item_menu a:hover, a:active {
+    background-color: rgba(255,0,0);
+    color: white;
   }
-  .item_menu a:hover{
-      color: rgb(0, 0, 0);
-      
-  }
-  .item_menu a:active{
-      color: #ff8800;
-      
-  }
-  .container a:link{
-      color:darkblue ;
-  }
-  .container a:visited{
-      color: chocolate;
-  }
-  .container a:hover{
-      color: darkviolet;
-  }
-  .container a:active{
-      color: blanchedalmond;
-  }
+
+ 
 footer a:link{
     color:rgb(255, 7, 222) ;
 }
@@ -128,24 +116,22 @@ footer a:hover{
 footer a:active{
     color: forestgreen;
 }
-.container a{
-    width: 150px;
-    height: 50px;
-    background-image: linear-gradient(to right, #f80606 , rgb(255, 0, 0));
-    margin: auto; 
-}
-.item_menu a{
-    width: 150px;
-    height: 50px;
-    background-image: linear-gradient(to right, #e9db15 , rgb(255, 166, 0));
-    margin: auto; 
-}
-footer a{
-    width: 150px;
-    height: 50px;
-    background-image: linear-gradient(to right, #8091f0 , rgb(255, 255, 255));
-    margin: auto; 
-}
+.container a:link, a:visited {
+        background-color: white;
+        color: black;
+        border: 2px solid:  black;
+        padding: 5px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+    }
+.container a:hover, a:active {
+        background-color:rgba(255,0,0);
+        color: white;
+}   
+
+
+
 .tanto{
     display: none;
 }
