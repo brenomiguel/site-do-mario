@@ -32,6 +32,7 @@ h1{
 .menu, footer{
     background-color: rgba(255,0,0);
     padding:  2%;
+    width: 100%;
 }
 .item_menu{
     list-style: 1.5%;
@@ -139,4 +140,25 @@ footer a:active{
 .left{
     float: left;
     margin-right: 2%;
+    width: auto;
+}
+
+table{
+    border-collapse:collapse;
+    width: 100%;
+    margin-top: 2%;
+}
+td,th{
+    border:5px inset white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    border-style: double;
+    
+}
+th{
+    color: red;
+}
+td{
+    color: aliceblue;
 }
