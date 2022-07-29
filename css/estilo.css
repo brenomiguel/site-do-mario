@@ -24,6 +24,7 @@ h1{
     margin-top: 1%;
     margin-bottom: 1%;
     font-size: 1.8em;
+    font-family: 'Major Mono Display', monospace;
 }
 .logo{
     padding-top: 1%;
@@ -31,8 +32,9 @@ h1{
 }
 .menu, footer{
     background-color: rgba(255,0,0);
-    padding:  2%;
-    width: 100%;
+    padding:  1%;
+    width: 98%;
+    font-family: 'VT323', monospace;
 }
 .item_menu{
     list-style: 1.5%;
@@ -40,13 +42,14 @@ h1{
     margin: auto;
 }
 p{
-    font-size: 1.4em;
+    font-size: 1.3em;
     color:white ;
     text-align: justify;
     text-indent: 40px;
     line-height: 1.5;
     margin-top: 0.2%;
     margin-bottom: 00.2%;
+    font-family: 'Syne Mono', monospace;
 }
 
 .parag_letras > p{
