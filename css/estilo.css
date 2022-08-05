@@ -147,21 +147,38 @@ footer a:active{
 }
 
 table{
-    border-collapse:collapse;
+    border-collapse: collapse;
     width: 100%;
     margin-top: 2%;
+    font-family: 'VT323', monospace;
+   
 }
-td,th{
-    border:5px inset white;
+  td,th{
+    border: 2px dotted white;
     padding-top: 1%;
     padding-bottom: 1%;
     text-align: center;
-    border-style: double;
+    ;
     
 }
 th{
-    color: red;
+    font-size: 1.5em;
+    color:white;
+    font-weight:bolder ;
+    font-family: 'VT323', monospace;
+}
+td:first-child{
+    width:40%;
+}
+tr:nth-child(even) {
+    background-color: dimgrey
+}
+th:first-child + td{
+    width:60%;
+}
+audio{
+    width: 70%;
 }
 td{
-    color: aliceblue;
+    color: bisque;
 }
