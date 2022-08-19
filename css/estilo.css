@@ -182,28 +182,65 @@ audio{
 td{
     color: bisque;
 }
-.jorge {
-    box-sizing: border-box;
-    padding-bottom: 5%;
-  }
+
 input[type=text], select, textarea,input[type=tel],input[type=email] {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 17px;
     resize: vertical;
+    font-family: 'VT323', monospace;
+
 }
 label {
     padding: 12px 12px 12px 0;
     display: inline-block;
+    font-family: 'VT323', monospace;
   }
   input[type=submit] {
     background-color: blue;
     color: white;
     padding: 12px 20px;
     border: none;
-    border-radius: 4px;
+    border-radius: 200px;
     cursor: pointer;
     float: right;
     padding-bottom: 1%;
   }  
+  input[type=submit]:hover {
+    background-color:black;
+  }
+  .jorge {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    padding-right: 4%;
+    padding-bottom: 2%;
+    border-radius: 25px;
+  }
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+    width: 90%;
+    margin-top: 0;
+    
+
+    }
+}
