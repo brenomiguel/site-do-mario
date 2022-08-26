@@ -15,14 +15,66 @@
         p{
             background-color: blanchedalmond;
         }
-        div{
+        /* div{
             width: 100px;
             height: 50px;
             background-color: blanchedalmond;
-        }
+        } */
         .botão{
             padding-top: 15px;
             text-align: center;
+        }
+        .fixo{
+            position: fixed;
+            z-index: 1030;
+            width: 100%;
+            
+
+        }
+        .container{
+            position: relative;
+            width: 100%;
+            height: 1200px;
+            background-color: aquamarine;
+
+        }
+        .main{
+            position: relative;
+        }
+        .topdir{
+            position: absolute;
+            width: 20%;
+            background-color: blanchedalmond;
+            right: 16px;
+
+        }
+        .topesq{
+            position: absolute;
+            width: 20%;
+            background-color: brown;
+            left: 16px;
+            
+        }
+        .baixodir{
+            position: absolute;
+            width: 20%;
+            background-color: burlywood;
+            right: 16px;
+            bottom: 10px;
+            
+        }
+        .baixoesq{
+            position: absolute;
+            width: 20%;
+            background-color: yellowgreen;
+            left: 16px;
+            bottom: 10px;
+
+        }
+        .centro{
+
+            
+
         }
 
 
@@ -33,11 +85,27 @@
     </style>
 
 </head>
+<header>
+    <h1 class="fixo" style="text-align: center;color: black;font-weight: bold;">CSS Interno e Inline</h1>
+    <div class="can">
+        <p style="border-color:brown;border-style: groove;color: blueviole;" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, eos vel porro, mollitia praesentium et dolorum aperiam excepturi eligendi sed dolores incidunt repellendus consequuntur? Totam eius neque ullam enim voluptatum.</p>
+        <p style="border-color: blue;border-style: groove;color: blueviolet;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora labore tempore ea totam soluta repellendus quo eveniet, libero nostrum quis exercitationem recusandae vel fuga perferendis laboriosam, perspiciatis quae consectetur placeat.  </p>
+        <p style="border-color: blue;border-style: groove;color: blueviolet;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nisi labore omnis vitae iusto laborum, reprehenderit doloribus mollitia fugit necessitatibus provident ullam repellat at aut dicta, optio illum delectus quas.</p>
+    </div>
+</header>
+<div class="main">
+    <div class="container">
+        <h1>teste.....</h1>
+        <div class="topdir">topdir</div>
+        <div class="topesq">topdir</div>
+        <div class="baixodir">topdir</div>
+        <div class="baixoesq">topdir</div>
+        <div class="centro">topdir</div>
+    </div>
+
+</div>
 <body>
-    <h1 style="text-align: center;color: black;font-weight: bold;">CSS Interno e Inline</h1>
-    <p style="border-color:brown;border-style: groove;color: blueviole;" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, eos vel porro, mollitia praesentium et dolorum aperiam excepturi eligendi sed dolores incidunt repellendus consequuntur? Totam eius neque ullam enim voluptatum.</p>
-    <p style="border-color: blue;border-style: groove;color: blueviolet;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora labore tempore ea totam soluta repellendus quo eveniet, libero nostrum quis exercitationem recusandae vel fuga perferendis laboriosam, perspiciatis quae consectetur placeat.  </p>
-    <p style="border-color: blue;border-style: groove;color: blueviolet;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nisi labore omnis vitae iusto laborum, reprehenderit doloribus mollitia fugit necessitatibus provident ullam repellat at aut dicta, optio illum delectus quas.</p>
+    
     <a href="index.html"> <div><p class="botão">HOME</p></div></a>
 </body>
 </html>
