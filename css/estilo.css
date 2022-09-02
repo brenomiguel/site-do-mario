@@ -244,3 +244,18 @@ label {
 
     }
 }
+.fixo{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+}
+.banner{
+  margin-top: 25%;
+
+}
+header{ 
+  position: relative;
+}
+ 
