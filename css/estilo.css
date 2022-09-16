@@ -274,9 +274,9 @@ label {
   }
   .item_menu{
     position: absolute;
-    right: 3%;
-    top: 30%;
-    width: 60%;
+    right: 0.5%;
+    top: 40%;
+    width: 45%;
   }
   .item_menu ul li {
     display: inline;
@@ -284,6 +284,14 @@ label {
   }
   .banner{
     margin-top: 8%;
+  }
+  .bbe{
+    margin-top: 15%;
+    margin-bottom: 5%;
+
+  }
+  .jorge{
+    margin-top: 15%;
   }
 
 
